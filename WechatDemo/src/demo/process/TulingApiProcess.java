@@ -25,7 +25,7 @@ public class TulingApiProcess {
 	 */
 	public String getTulingResult(String content){
 		/** 此处为图灵api接口，参数key需要自己去注册申请，先以11111111代替 */
-		String apiUrl = "http://www.tuling123.com/openapi/api?key=11111111&info=";
+		String apiUrl = "http://www.tuling123.com/openapi/api?key=d6f5b1d36685414d91ff750b49416135&info=";
 		String param = "";
 		try {
 			param = apiUrl+URLEncoder.encode(content,"utf-8");
